@@ -464,7 +464,7 @@ if (D.photo) {
 document.getElementById('marquee-track').innerHTML = [...D.marquee,...D.marquee].map(t=>`<span class="m-item">${t}<span class="m-sep"> ★ </span></span>`).join('');
 
 // Stats
-const decos = ['★','✦','◆','★'];
+const decos = ['★','✦','✦','◆'];
 document.getElementById('stats-wrap').innerHTML = D.stats.map((s,i)=>`
   <div class="stat-item reveal">
     <div class="stat-deco">${decos[i]}</div>
